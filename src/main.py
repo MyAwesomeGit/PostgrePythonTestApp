@@ -1,7 +1,7 @@
 import psycopg2
 import traceback
 
-from PostgrePythonTest.models.config import host, user, password, port, db_name
+from models.config import host, user, password, db_name, port
 
 try:
     connection = psycopg2.connect(
