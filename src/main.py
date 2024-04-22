@@ -1,7 +1,7 @@
 import psycopg2
 import traceback
 
-from models.config import host, user, password, db_name, port
+from models.db_config import host, user, password, db_name, port
 
 try:
     connection = psycopg2.connect(
